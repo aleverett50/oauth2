@@ -14,7 +14,7 @@ if(!isset($_POST['title'])){
 $accessToken = $_POST['access_token'];
 
 $ch = curl_init();
-$url = 'http://localhost/demo/oauth/resource.php';
+$url = 'http://localhost/oauth-demo/oauth/resource.php';
 
 curl_setopt($ch, CURLOPT_URL, $url);
 curl_setopt($ch, CURLOPT_SSLVERSION, CURL_SSLVERSION_TLSv1_2);
